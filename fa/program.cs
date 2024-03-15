@@ -57,7 +57,7 @@ namespace fans
             q1.Transitions['0'] = q4;
 
             q2.Transitions['1'] = q2;
-            q2.Transitions['0'] = q2;
+            q2.Transitions['0'] = q3;
 
             q3.Transitions['1'] = q3;
             q3.Transitions['0'] = q4;
