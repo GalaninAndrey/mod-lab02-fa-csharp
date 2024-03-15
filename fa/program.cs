@@ -34,13 +34,13 @@ namespace fans
             IsAcceptState = false,
             Transitions = new Dictionary<char, State>()
         };
-        public State q4 = new State()
+        public State q3 = new State()
         {
             Name = "q3",
             IsAcceptState = true,
             Transitions = new Dictionary<char, State>()
         };
-        public State q5 = new State()
+        public State q4 = new State()
         {
             Name = "q4",
             IsAcceptState = false,
